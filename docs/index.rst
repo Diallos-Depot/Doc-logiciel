@@ -9,6 +9,7 @@ Welcome to Doc-logiciel's documentation!
 .. toctree::
    :maxdepth: 2
    :caption: Contents:
+
    tutoriels
    guide
    referentiel
