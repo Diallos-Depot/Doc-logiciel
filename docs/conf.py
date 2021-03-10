@@ -18,11 +18,11 @@
 # -- Renseignements sur le projet --------------------------------------------- --------  
 
 project   =   'Doc-logiciel'  
-copyright   =   '2021, Aurelien BURET'  
-author   =   'Aurélien BURET'  
+copyright   =   '2021, Aurelien BURET, Nicolas DEGRELLE, Souleymane Diallo'  
+author   =   'Aurélien BURET, Nicolas DEGRELLE, Souleymane Diallo'  
 
 # La version complète, y compris les balises alpha / beta / rc 
-release   =   '1.0.0'  
+release   =   '1.0.1'  
 
 
 # - Configuration générale --------------------------------------------- ------ 
