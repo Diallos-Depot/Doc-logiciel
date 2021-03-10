@@ -5,6 +5,7 @@
 
 Welcome to Doc-logiciel's documentation!
 ========================================
+.. include:: ../README.rst
 
 .. toctree::
    :maxdepth: 2
