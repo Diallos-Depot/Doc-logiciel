@@ -1,6 +1,11 @@
 #################
-Example .rst File
+Guide
 #################
+
+**********************************
+Comment modéliser un fichier .RST
+**********************************
+
 
 Explanations and more context for each type of element are provided in
 :ref:`Work with edX Documentation Source Files`.
