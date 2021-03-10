@@ -14,11 +14,6 @@
 # import sys  
 # sys.path.insert (0, os.path.abspath ('.'))  
 
-import os
-import sys
-
-sys.path.append(os.path.join(os.environ["SAMPLE_DOCS_LOCATION"], "demo"))
-print("", sys.path[-1], "", sep="\n" + "-" * 80 + "\n")
 
 # -- Renseignements sur le projet --------------------------------------------- --------  
 
@@ -37,11 +32,7 @@ release   =   '1.0.0'
 # nous.  
 extensions   =   [  
 	'sphinx.ext.githubpages' , 
-	'recommonmark',
-	"sphinx.ext.intersphinx",
-    "sphinx.ext.autodoc",
-    "sphinx.ext.mathjax",
-    "sphinx.ext.viewcode"
+	'recommonmark'
 ]  
 
 source_suffix    =    ".rst"  
@@ -70,9 +61,8 @@ exclude_patterns   = [ '_build' , 'Thumbs.db' , '.DS_Store' ]
 # Le thème à utiliser pour les pages d'aide HTML et HTML.  Voir la documentation pour  
 # une liste de thèmes intégrés.  
 # 
-html_title = project
 
-html_theme = "furo"
+html_theme = "alaberst"
 
 # Ajoutez ici tous les chemins contenant des fichiers statiques personnalisés (tels que des feuilles de style),  
 # relatif à ce répertoire.  Ils sont copiés après les fichiers statiques intégrés,  
