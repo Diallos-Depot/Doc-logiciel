@@ -32,11 +32,15 @@ release   =   '1.0.0'
 # nous.  
 extensions   =   [  
 	'sphinx.ext.githubpages' , 
-	'recommonmark'  
+	'recommonmark',
+	"sphinx.ext.intersphinx",
+    "sphinx.ext.autodoc",
+    "sphinx.ext.mathjax",
+    "sphinx.ext.viewcode"
 ]  
 
 source_suffix    =    ".rst"  
-master_doc    =    "index"  
+master_doc       =    "index"  
 
 
 
@@ -61,7 +65,7 @@ exclude_patterns   = [ '_build' , 'Thumbs.db' , '.DS_Store' ]
 # Le thème à utiliser pour les pages d'aide HTML et HTML.  Voir la documentation pour  
 # une liste de thèmes intégrés.  
 # 
-html_theme   =   'alabaster'  
+html_theme = "furo"
 
 # Ajoutez ici tous les chemins contenant des fichiers statiques personnalisés (tels que des feuilles de style),  
 # relatif à ce répertoire.  Ils sont copiés après les fichiers statiques intégrés,  
