@@ -14,6 +14,11 @@
 # import sys  
 # sys.path.insert (0, os.path.abspath ('.'))  
 
+import os
+import sys
+
+sys.path.append(os.path.join(os.environ["SAMPLE_DOCS_LOCATION"], "demo"))
+print("", sys.path[-1], "", sep="\n" + "-" * 80 + "\n")
 
 # -- Renseignements sur le projet --------------------------------------------- --------  
 
@@ -65,6 +70,8 @@ exclude_patterns   = [ '_build' , 'Thumbs.db' , '.DS_Store' ]
 # Le thème à utiliser pour les pages d'aide HTML et HTML.  Voir la documentation pour  
 # une liste de thèmes intégrés.  
 # 
+html_title = project
+
 html_theme = "furo"
 
 # Ajoutez ici tous les chemins contenant des fichiers statiques personnalisés (tels que des feuilles de style),  
