@@ -61,7 +61,7 @@ exclude_patterns   = [ '_build' , 'Thumbs.db' , '.DS_Store' ]
 # Le thème à utiliser pour les pages d'aide HTML et HTML.  Voir la documentation pour  
 # une liste de thèmes intégrés.  
 # 
-html_theme   =   'albâtre'  
+html_theme   =   'alabaster'  
 
 # Ajoutez ici tous les chemins contenant des fichiers statiques personnalisés (tels que des feuilles de style),  
 # relatif à ce répertoire.  Ils sont copiés après les fichiers statiques intégrés,  
