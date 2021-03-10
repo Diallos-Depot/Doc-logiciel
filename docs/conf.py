@@ -62,7 +62,7 @@ exclude_patterns   = [ '_build' , 'Thumbs.db' , '.DS_Store' ]
 # une liste de thèmes intégrés.  
 # 
 
-html_theme = "alaberst"
+html_theme  =  'sphinx_rtd_theme'
 
 # Ajoutez ici tous les chemins contenant des fichiers statiques personnalisés (tels que des feuilles de style),  
 # relatif à ce répertoire.  Ils sont copiés après les fichiers statiques intégrés,  
