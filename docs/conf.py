@@ -32,7 +32,8 @@ release   =   '1.0.1'
 # nous.  
 extensions   =   [  
 	'sphinx.ext.githubpages' , 
-	'recommonmark'
+	'recommonmark',
+	'autoapi.extension'
 ]  
 
 source_suffix    =    ".rst"  
