@@ -1,6 +1,6 @@
-************
-Referentiel
-************
+**********
+tutoriels
+**********
 
 It's pretty easy to use `GitHub Pages <https://pages.github.com/>`_ to host all of your versioned documentation. Before
 starting be sure to go through the :ref:`tutorial` first to make sure you can build your docs locally. You'll also want
