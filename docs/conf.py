@@ -68,3 +68,7 @@ html_theme  =  'sphinx_rtd_theme'
 # relatif à ce répertoire.  Ils sont copiés après les fichiers statiques intégrés,  
 # donc un fichier nommé "default.css" écrasera le "default.css" intégré.  
 html_static_path   = [ '_static' ]
+
+autoapi_type  =  'python' 
+autoapi_dirs  = [ '../matrix' ] 
+autoapi_generate_api_docs  =  True
