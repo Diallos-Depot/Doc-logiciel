@@ -33,7 +33,7 @@ release   =   '1.0.1'
 extensions   =   [  
 	'sphinx.ext.githubpages' , 
 	'recommonmark',
-	'autoapi.extension'
+	'sphinx.ext.autodoc'
 ]  
 
 source_suffix    =    ".rst"  
